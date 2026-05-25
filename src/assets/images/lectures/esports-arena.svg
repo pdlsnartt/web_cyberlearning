@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Esports arena</title>
+  <desc id="desc">A local vector cover for an esports lecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071019"/>
+      <stop offset="0.55" stop-color="#111b2c"/>
+      <stop offset="1" stop-color="#230b2e"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0" stop-color="#18f2b2"/>
+      <stop offset="1" stop-color="#ff4fd8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <path d="M0 520h1200v160H0z" fill="#05070d"/>
+  <path d="M130 90h940l-80 340H210z" fill="#10192a" stroke="#18f2b2" stroke-width="8"/>
+  <path d="M235 120h730l-52 250H287z" fill="#06121c"/>
+  <path d="M320 185h560v96H320z" fill="url(#screen)" opacity=".92"/>
+  <text x="600" y="252" fill="#05130f" font-family="Consolas,monospace" font-size="58" font-weight="700" text-anchor="middle">ESPORTS</text>
+  <path d="M150 520c115-95 785-95 900 0" fill="none" stroke="#ff4fd8" stroke-width="10"/>
+  <g fill="#18243a" stroke="#18f2b2" stroke-width="4">
+    <path d="M190 520h110l30 120H160z"/>
+    <path d="M900 520h110l30 120H870z"/>
+  </g>
+  <g fill="#18f2b2" opacity=".85">
+    <circle cx="215" cy="568" r="8"/><circle cx="250" cy="548" r="8"/><circle cx="285" cy="570" r="8"/>
+    <circle cx="928" cy="568" r="8"/><circle cx="964" cy="548" r="8"/><circle cx="1000" cy="570" r="8"/>
+  </g>
+  <path d="M0 0h1200v680H0z" fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="18"/>
+</svg>

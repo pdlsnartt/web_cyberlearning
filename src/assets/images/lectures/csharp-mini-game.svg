@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">C# mini game development</title>
+  <desc id="desc">A local vector cover showing a console mini adventure game.</desc>
+  <rect width="1200" height="680" fill="#080d14"/>
+  <rect x="105" y="80" width="990" height="520" rx="14" fill="#101827" stroke="#18f2b2" stroke-width="6"/>
+  <rect x="150" y="135" width="435" height="390" fill="#05080d" stroke="#2b3850" stroke-width="4"/>
+  <g font-family="Consolas,monospace" font-size="34" font-weight="700">
+    <text x="188" y="205" fill="#18f2b2">########</text>
+    <text x="188" y="260" fill="#f4f7fb">#P..K..#</text>
+    <text x="188" y="315" fill="#f4f7fb">#.##...#</text>
+    <text x="188" y="370" fill="#f4f7fb">#...#E.#</text>
+    <text x="188" y="425" fill="#18f2b2">########</text>
+  </g>
+  <g font-family="Consolas,monospace" font-size="28">
+    <text x="650" y="170" fill="#ff4fd8">C# GAME LOOP</text>
+    <text x="650" y="240" fill="#18f2b2">while (!gameOver)</text>
+    <text x="685" y="295" fill="#f4f7fb">ReadInput();</text>
+    <text x="685" y="345" fill="#f4f7fb">UpdateState();</text>
+    <text x="685" y="395" fill="#f4f7fb">DrawMap();</text>
+    <text x="685" y="445" fill="#ffd166">CheckVictory();</text>
+  </g>
+  <path d="M640 505h360" stroke="#18f2b2" stroke-width="10"/>
+  <path d="M640 535h270" stroke="#ff4fd8" stroke-width="10"/>
+</svg>
