@@ -6,8 +6,9 @@ import { AppStateProvider } from "./hooks/useAppState";
 import "./styles/global.css";
 
 createRoot(document.getElementById("root")!).render(
+  
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/web_cyberlearning">
       <AppStateProvider>
         <App />
       </AppStateProvider>
